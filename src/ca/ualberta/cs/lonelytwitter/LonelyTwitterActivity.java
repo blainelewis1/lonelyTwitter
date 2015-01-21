@@ -57,7 +57,7 @@ public class LonelyTwitterActivity extends Activity {
 
 	@Override
 	protected void onStart() {
-		// TODO Auto-generated method stub
+		
 		super.onStart();
 		tweets = loadFromFile();
 		tweetAdapter = new ArrayAdapter<String>(this, R.layout.list_item, tweets);
